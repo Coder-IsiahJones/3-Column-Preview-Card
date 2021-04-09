@@ -1,0 +1,135 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/* Fonts for project */
+/* font-family: 'Lexend Deca', sans-serif;
+font-weight: 400;
+
+font-family: 'Big Shoulders Display', cursive;
+font-weight: 700; */
+
+/* Auto Loaded by Challenge */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+:root {
+  /* Primary Colors for cards*/
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral for paragraph */
+  --main-font-color: hsla(0, 0%, 100%, 0.75);
+
+  /* Background, headings, buttons */
+  --light-background-color: hsl(0, 0%, 95%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 15px;
+}
+
+p{
+  color: var(--main-font-color);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  line-height: 2.0;
+  padding-bottom: 14px;
+}
+
+h2{
+  color: var(--main-font-color);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5rem !important;
+}
+
+/* Card Group */
+  .sedans-card {
+    background-color: var(--orange);
+    width: 20.2rem !important;
+  }
+
+  .suvs-card {
+    background: var(--dark-cyan);
+    width: 20.2rem !important;
+  }
+
+  .luxury-card {
+    background: var(--very-dark-cyan);
+    width: 20.2rem !important;
+  }
+
+  /* Button Group */
+  #btn-orange{
+    background-color: var(--light-background-color);
+    color: var(--orange);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #btn-orange:hover{
+    background: none;
+    color: var(--light-background-color);
+    border-color: var(--light-border-color);
+    border-width: 1px;
+  }
+
+  #btn-dark-cyan{
+    background-color: var(--light-background-color);
+    color: var(--dark-cyan);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
+
+  #btn-dark-cyan:hover{
+    background: none;
+    color: var(--light-background-color);
+    border-color: var(--light-border-color);
+    border-width: 1px;
+  }
+
+  #btn-very-dark-cyan{
+    background-color: var(--light-background-color);
+    color: var(--very-dark-cyan);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  } 
+
+  #btn-very-dark-cyan:hover{
+    background: none;
+    color: var(--light-background-color);
+    border-color: var(--light-border-color);
+    border-width: 1px;
+  }
+
+   @media (min-width: 375px)  and (max-width: 1920px) { 
+    body{
+      padding-top: 50px;
+    }
+  }
+
+  @media (max-width: 375px)  { 
+    body{
+      padding-top: 50px;
+    }
+  }
